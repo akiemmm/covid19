@@ -483,6 +483,41 @@ function getJSONData (dataPath) {
 				};
 					count19++;
 					break;
+					case "Sun Jan 17 2021 10:00:00 GMT-0500 (アメリカ東部標準時)":
+						switch(years[i]){
+							case "100歳代":
+							count18_100++;
+							break;
+							case "90歳代":
+							count18_90++;
+							break;
+							case "80歳代":
+							count18_80++;
+							break;
+							case "70歳代":
+							count18_70++;
+							break;
+							case "60歳代":
+							count18_60++;
+							break;
+							case "50歳代":
+							count18_50++;
+							break;
+							case "40歳代":
+							count18_40++;
+							break;
+							case "30歳代":
+							count18_30++;
+							break;
+							case "20歳代":
+							count18_20++;
+							break;
+							default:
+							count18_10++;
+							break;		
+				};
+					count18++;
+					break;
 					case "Sat Jan 16 2021 10:00:00 GMT-0500 (アメリカ東部標準時)":
 						switch(years[i]){
 							case "100歳代":
@@ -1100,6 +1135,90 @@ function getJSONData (dataPath) {
 			</tr>
 			</thead>
 			<tbody>
+			<tr>
+				<th>1/24</th>
+				<td>${count24}人</td>
+				<td>${count24_100}人</td>
+				<td>${count24_90}人</td>
+				<td>${count24_80}人</td>
+				<td>${count24_70}人</td>
+				<td>${count24_60}人</td>
+				<td>${count24_50}人</td>
+				<td>${count24_40}人</td>
+				<td>${count24_30}人</td>
+				<td>${count24_20}人</td>
+				<td>${count24_10}人</td>
+			</tr>
+			<tr>
+				<th>1/23</th>
+				<td>${count23}人</td>
+				<td>${count23_100}人</td>
+				<td>${count23_90}人</td>
+				<td>${count23_80}人</td>
+				<td>${count23_70}人</td>
+				<td>${count23_60}人</td>
+				<td>${count23_50}人</td>
+				<td>${count23_40}人</td>
+				<td>${count23_30}人</td>
+				<td>${count23_20}人</td>
+				<td>${count23_10}人</td>
+			</tr>
+			<tr>
+				<th>1/22</th>
+				<td>${count22}人</td>
+				<td>${count22_100}人</td>
+				<td>${count22_90}人</td>
+				<td>${count22_80}人</td>
+				<td>${count22_70}人</td>
+				<td>${count22_60}人</td>
+				<td>${count22_50}人</td>
+				<td>${count22_40}人</td>
+				<td>${count22_30}人</td>
+				<td>${count22_20}人</td>
+				<td>${count22_10}人</td>
+			</tr>
+			<tr>
+				<th>1/21</th>
+				<td>${count21}人</td>
+				<td>${count21_100}人</td>
+				<td>${count21_90}人</td>
+				<td>${count21_80}人</td>
+				<td>${count21_70}人</td>
+				<td>${count21_60}人</td>
+				<td>${count21_50}人</td>
+				<td>${count21_40}人</td>
+				<td>${count21_30}人</td>
+				<td>${count21_20}人</td>
+				<td>${count21_10}人</td>
+			</tr>
+			<tr>
+				<th>1/20</th>
+				<td>${count20}人</td>
+				<td>${count20_100}人</td>
+				<td>${count20_90}人</td>
+				<td>${count20_80}人</td>
+				<td>${count20_70}人</td>
+				<td>${count20_60}人</td>
+				<td>${count20_50}人</td>
+				<td>${count20_40}人</td>
+				<td>${count20_30}人</td>
+				<td>${count20_20}人</td>
+				<td>${count20_10}人</td>
+			</tr>
+			<tr>
+				<th>1/19</th>
+				<td>${count19}人</td>
+				<td>${count19_100}人</td>
+				<td>${count19_90}人</td>
+				<td>${count19_80}人</td>
+				<td>${count19_70}人</td>
+				<td>${count19_60}人</td>
+				<td>${count19_50}人</td>
+				<td>${count19_40}人</td>
+				<td>${count19_30}人</td>
+				<td>${count19_20}人</td>
+				<td>${count19_10}人</td>
+			</tr>
 			<tr>
 				<th>1/18</th>
 				<td>${count18}人</td>
