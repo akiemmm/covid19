@@ -1,9 +1,14 @@
 'use strict'
-
 function getJSONData (dataPath) {
 	const request = new XMLHttpRequest();
 	request.addEventListener('load', (e) => {
 		let responseData = JSON.parse(e.target.responseText);
+		let count24 = 0;
+		let count23 = 0;
+		let count22 = 0;
+		let count21 = 0;
+		let count20 = 0;
+		let count19 = 0;
 		let count18 = 0;
 		let count17 = 0;
 		let count16 = 0;
@@ -22,6 +27,12 @@ function getJSONData (dataPath) {
 		let count03 = 0;
 		let count02 = 0;
 		let count01 = 0;
+		let count24_100 = 0;
+		let count23_100 = 0;
+		let count22_100 = 0;
+		let count21_100 = 0;
+		let count20_100 = 0;
+		let count19_100 = 0;
 		let count18_100 = 0;
 		let count17_100 = 0;
 		let count16_100 = 0;
@@ -40,6 +51,12 @@ function getJSONData (dataPath) {
 		let count03_100 = 0;
 		let count02_100 = 0;
 		let count01_100 = 0;
+		let count24_90 = 0;
+		let count23_90 = 0;
+		let count22_90 = 0;
+		let count21_90 = 0;
+		let count20_90 = 0;
+		let count19_90 = 0;
 		let count18_90 = 0;
 		let count17_90 = 0;
 		let count16_90 = 0;
@@ -58,6 +75,12 @@ function getJSONData (dataPath) {
 		let count03_90 = 0;
 		let count02_90 = 0;
 		let count01_90 = 0;
+		let count24_80 = 0;
+		let count23_80 = 0;
+		let count22_80 = 0;
+		let count21_80 = 0;
+		let count20_80 = 0;
+		let count19_80 = 0;
 		let count18_80 = 0;
 		let count17_80 = 0;
 		let count16_80 = 0;
@@ -76,6 +99,12 @@ function getJSONData (dataPath) {
 		let count03_80 = 0;
 		let count02_80 = 0;
 		let count01_80 = 0;
+		let count24_70 = 0;
+		let count23_70 = 0;
+		let count22_70 = 0;
+		let count21_70 = 0;
+		let count20_70 = 0;
+		let count19_70 = 0;
 		let count18_70 = 0;
 		let count17_70 = 0;
 		let count16_70 = 0;
@@ -94,6 +123,12 @@ function getJSONData (dataPath) {
 		let count03_70 = 0;
 		let count02_70 = 0;
 		let count01_70 = 0;
+		let count24_60 = 0;
+		let count23_60 = 0;
+		let count22_60 = 0;
+		let count21_60 = 0;
+		let count20_60 = 0;
+		let count19_60 = 0;
 		let count18_60 = 0;
 		let count17_60 = 0;
 		let count16_60 = 0;
@@ -112,6 +147,12 @@ function getJSONData (dataPath) {
 		let count03_60 = 0;
 		let count02_60 = 0;
 		let count01_60 = 0;
+		let count24_50 = 0;
+		let count23_50 = 0;
+		let count22_50 = 0;
+		let count21_50 = 0;
+		let count20_50 = 0;
+		let count19_50 = 0;
 		let count18_50 = 0;
 		let count17_50 = 0;
 		let count16_50 = 0;
@@ -130,6 +171,12 @@ function getJSONData (dataPath) {
 		let count03_50 = 0;
 		let count02_50 = 0;
 		let count01_50 = 0;
+		let count24_40 = 0;
+		let count23_40 = 0;
+		let count22_40 = 0;
+		let count21_40 = 0;
+		let count20_40 = 0;
+		let count19_40 = 0;
 		let count18_40 = 0;
 		let count17_40 = 0;
 		let count16_40 = 0;
@@ -148,6 +195,12 @@ function getJSONData (dataPath) {
 		let count03_40 = 0;
 		let count02_40 = 0;
 		let count01_40 = 0;
+		let count24_30 = 0;
+		let count23_30 = 0;
+		let count22_30 = 0;
+		let count21_30 = 0;
+		let count20_30 = 0;
+		let count19_30 = 0;
 		let count18_30 = 0;
 		let count17_30 = 0;
 		let count16_30 = 0;
@@ -166,6 +219,12 @@ function getJSONData (dataPath) {
 		let count03_30 = 0;
 		let count02_30 = 0;
 		let count01_30 = 0;
+		let count24_20 = 0;
+		let count23_20 = 0;
+		let count22_20 = 0;
+		let count21_20 = 0;
+		let count20_20 = 0;
+		let count19_20 = 0;
 		let count18_20 = 0;
 		let count17_20 = 0;
 		let count16_20 = 0;
@@ -184,6 +243,12 @@ function getJSONData (dataPath) {
 		let count03_20 = 0;
 		let count02_20 = 0;
 		let count01_20 = 0;
+		let count24_10 = 0;
+		let count23_10 = 0;
+		let count22_10 = 0;
+		let count21_10 = 0;
+		let count20_10 = 0;
+		let count19_10 = 0;
 		let count18_10 = 0;
 		let count17_10 = 0;
 		let count16_10 = 0;
@@ -208,40 +273,215 @@ function getJSONData (dataPath) {
 	
 					for (let i = 0; i<days.length; i++){
 				switch(days[i]){
-					case "Sun Jan 17 2021 10:00:00 GMT-0500 (アメリカ東部標準時)":
+					case "Sat Jan 23 2021 10:00:00 GMT-0500 (アメリカ東部標準時)":
 						switch(years[i]){
 							case "100歳代":
-							count18_100++;
+							count24_100++;
 							break;
 							case "90歳代":
-							count18_90++;
+							count24_90++;
 							break;
 							case "80歳代":
-							count18_80++;
+							count24_80++;
 							break;
 							case "70歳代":
-							count18_70++;
+							count24_70++;
 							break;
 							case "60歳代":
-							count18_60++;
+							count24_60++;
 							break;
 							case "50歳代":
-							count18_50++;
+							count24_50++;
 							break;
 							case "40歳代":
-							count18_40++;
+							count24_40++;
 							break;
 							case "30歳代":
-							count18_30++;
+							count24_30++;
 							break;
 							case "20歳代":
-							count18_20++;
+							count24_20++;
 							break;
 							default:
-							count18_10++;
+							count24_10++;
 							break;		
 				};
-					count18++;
+					count24++;
+					break;
+					case "Fri Jan 22 2021 10:00:00 GMT-0500 (アメリカ東部標準時)":
+						switch(years[i]){
+							case "100歳代":
+							count23_100++;
+							break;
+							case "90歳代":
+							count23_90++;
+							break;
+							case "80歳代":
+							count23_80++;
+							break;
+							case "70歳代":
+							count23_70++;
+							break;
+							case "60歳代":
+							count23_60++;
+							break;
+							case "50歳代":
+							count23_50++;
+							break;
+							case "40歳代":
+							count23_40++;
+							break;
+							case "30歳代":
+							count23_30++;
+							break;
+							case "20歳代":
+							count23_20++;
+							break;
+							default:
+							count23_10++;
+							break;		
+				};
+					count23++;
+					break;
+					case "Thu Jan 21 2021 10:00:00 GMT-0500 (アメリカ東部標準時)":
+						switch(years[i]){
+							case "100歳代":
+							count22_100++;
+							break;
+							case "90歳代":
+							count22_90++;
+							break;
+							case "80歳代":
+							count22_80++;
+							break;
+							case "70歳代":
+							count22_70++;
+							break;
+							case "60歳代":
+							count22_60++;
+							break;
+							case "50歳代":
+							count22_50++;
+							break;
+							case "40歳代":
+							count22_40++;
+							break;
+							case "30歳代":
+							count22_30++;
+							break;
+							case "20歳代":
+							count22_20++;
+							break;
+							default:
+							count22_10++;
+							break;		
+				};
+					count22++;
+					break;
+					case "Wed Jan 20 2021 10:00:00 GMT-0500 (アメリカ東部標準時)":
+						switch(years[i]){
+							case "100歳代":
+							count21_100++;
+							break;
+							case "90歳代":
+							count21_90++;
+							break;
+							case "80歳代":
+							count21_80++;
+							break;
+							case "70歳代":
+							count21_70++;
+							break;
+							case "60歳代":
+							count21_60++;
+							break;
+							case "50歳代":
+							count21_50++;
+							break;
+							case "40歳代":
+							count21_40++;
+							break;
+							case "30歳代":
+							count21_30++;
+							break;
+							case "20歳代":
+							count21_20++;
+							break;
+							default:
+							count21_10++;
+							break;		
+				};
+					count21++;
+					break;
+					case "Tue Jan 19 2021 10:00:00 GMT-0500 (アメリカ東部標準時)":
+						switch(years[i]){
+							case "100歳代":
+							count20_100++;
+							break;
+							case "90歳代":
+							count20_90++;
+							break;
+							case "80歳代":
+							count20_80++;
+							break;
+							case "70歳代":
+							count20_70++;
+							break;
+							case "60歳代":
+							count20_60++;
+							break;
+							case "50歳代":
+							count20_50++;
+							break;
+							case "40歳代":
+							count20_40++;
+							break;
+							case "30歳代":
+							count20_30++;
+							break;
+							case "20歳代":
+							count20_20++;
+							break;
+							default:
+							count20_10++;
+							break;		
+				};
+					count20++;
+					break;
+					case "Mon Jan 18 2021 10:00:00 GMT-0500 (アメリカ東部標準時)":
+						switch(years[i]){
+							case "100歳代":
+							count19_100++;
+							break;
+							case "90歳代":
+							count19_90++;
+							break;
+							case "80歳代":
+							count19_80++;
+							break;
+							case "70歳代":
+							count19_70++;
+							break;
+							case "60歳代":
+							count19_60++;
+							break;
+							case "50歳代":
+							count19_50++;
+							break;
+							case "40歳代":
+							count19_40++;
+							break;
+							case "30歳代":
+							count19_30++;
+							break;
+							case "20歳代":
+							count19_20++;
+							break;
+							default:
+							count19_10++;
+							break;		
+				};
+					count19++;
 					break;
 					case "Sat Jan 16 2021 10:00:00 GMT-0500 (アメリカ東部標準時)":
 						switch(years[i]){
