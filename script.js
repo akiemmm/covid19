@@ -3,6 +3,8 @@ function getJSONData (dataPath) {
 	const request = new XMLHttpRequest();
 	request.addEventListener('load', (e) => {
 		let responseData = JSON.parse(e.target.responseText);
+		let count26 = 0;
+		let count25 = 0;
 		let count24 = 0;
 		let count23 = 0;
 		let count22 = 0;
@@ -27,6 +29,8 @@ function getJSONData (dataPath) {
 		let count03 = 0;
 		let count02 = 0;
 		let count01 = 0;
+		let count26_100 = 0;
+		let count25_100 = 0;
 		let count24_100 = 0;
 		let count23_100 = 0;
 		let count22_100 = 0;
@@ -51,6 +55,8 @@ function getJSONData (dataPath) {
 		let count03_100 = 0;
 		let count02_100 = 0;
 		let count01_100 = 0;
+		let count26_90 = 0;
+		let count25_90 = 0;
 		let count24_90 = 0;
 		let count23_90 = 0;
 		let count22_90 = 0;
@@ -75,6 +81,8 @@ function getJSONData (dataPath) {
 		let count03_90 = 0;
 		let count02_90 = 0;
 		let count01_90 = 0;
+		let count26_80 = 0;
+		let count25_80 = 0;
 		let count24_80 = 0;
 		let count23_80 = 0;
 		let count22_80 = 0;
@@ -99,6 +107,8 @@ function getJSONData (dataPath) {
 		let count03_80 = 0;
 		let count02_80 = 0;
 		let count01_80 = 0;
+		let count26_70 = 0;
+		let count25_70 = 0;
 		let count24_70 = 0;
 		let count23_70 = 0;
 		let count22_70 = 0;
@@ -123,6 +133,8 @@ function getJSONData (dataPath) {
 		let count03_70 = 0;
 		let count02_70 = 0;
 		let count01_70 = 0;
+		let count26_60 = 0;
+		let count25_60 = 0;
 		let count24_60 = 0;
 		let count23_60 = 0;
 		let count22_60 = 0;
@@ -147,6 +159,8 @@ function getJSONData (dataPath) {
 		let count03_60 = 0;
 		let count02_60 = 0;
 		let count01_60 = 0;
+		let count26_50 = 0;
+		let count25_50 = 0;
 		let count24_50 = 0;
 		let count23_50 = 0;
 		let count22_50 = 0;
@@ -171,6 +185,8 @@ function getJSONData (dataPath) {
 		let count03_50 = 0;
 		let count02_50 = 0;
 		let count01_50 = 0;
+		let count26_40 = 0;
+		let count25_40 = 0;
 		let count24_40 = 0;
 		let count23_40 = 0;
 		let count22_40 = 0;
@@ -195,6 +211,8 @@ function getJSONData (dataPath) {
 		let count03_40 = 0;
 		let count02_40 = 0;
 		let count01_40 = 0;
+		let count26_30 = 0;
+		let count25_30 = 0;
 		let count24_30 = 0;
 		let count23_30 = 0;
 		let count22_30 = 0;
@@ -219,6 +237,8 @@ function getJSONData (dataPath) {
 		let count03_30 = 0;
 		let count02_30 = 0;
 		let count01_30 = 0;
+		let count26_20 = 0;
+		let count25_20 = 0;
 		let count24_20 = 0;
 		let count23_20 = 0;
 		let count22_20 = 0;
@@ -243,6 +263,8 @@ function getJSONData (dataPath) {
 		let count03_20 = 0;
 		let count02_20 = 0;
 		let count01_20 = 0;
+		let count26_10 = 0;
+		let count25_10 = 0;
 		let count24_10 = 0;
 		let count23_10 = 0;
 		let count22_10 = 0;
@@ -273,6 +295,76 @@ function getJSONData (dataPath) {
 	
 					for (let i = 0; i<days.length; i++){
 				switch(days[i]){
+					case "Mon Jan 25 2021 10:00:00 GMT-0500 (アメリカ東部標準時)":
+						switch(years[i]){
+							case "100歳代":
+							count26_100++;
+							break;
+							case "90歳代":
+							count26_90++;
+							break;
+							case "80歳代":
+							count26_80++;
+							break;
+							case "70歳代":
+							count26_70++;
+							break;
+							case "60歳代":
+							count26_60++;
+							break;
+							case "50歳代":
+							count26_50++;
+							break;
+							case "40歳代":
+							count26_40++;
+							break;
+							case "30歳代":
+							count26_30++;
+							break;
+							case "20歳代":
+							count26_20++;
+							break;
+							default:
+							count26_10++;
+							break;		
+				};
+					count26++;
+					break;
+					case "Sun Jan 24 2021 10:00:00 GMT-0500 (アメリカ東部標準時)":
+						switch(years[i]){
+							case "100歳代":
+							count25_100++;
+							break;
+							case "90歳代":
+							count25_90++;
+							break;
+							case "80歳代":
+							count25_80++;
+							break;
+							case "70歳代":
+							count25_70++;
+							break;
+							case "60歳代":
+							count25_60++;
+							break;
+							case "50歳代":
+							count25_50++;
+							break;
+							case "40歳代":
+							count25_40++;
+							break;
+							case "30歳代":
+							count25_30++;
+							break;
+							case "20歳代":
+							count25_20++;
+							break;
+							default:
+							count25_10++;
+							break;		
+				};
+					count25++;
+					break;
 					case "Sat Jan 23 2021 10:00:00 GMT-0500 (アメリカ東部標準時)":
 						switch(years[i]){
 							case "100歳代":
@@ -1135,6 +1227,34 @@ function getJSONData (dataPath) {
 			</tr>
 			</thead>
 			<tbody>
+			<tr>
+				<th>1/26</th>
+				<td>${count26}人</td>
+				<td>${count26_100}人</td>
+				<td>${count26_90}人</td>
+				<td>${count26_80}人</td>
+				<td>${count26_70}人</td>
+				<td>${count26_60}人</td>
+				<td>${count26_50}人</td>
+				<td>${count26_40}人</td>
+				<td>${count26_30}人</td>
+				<td>${count26_20}人</td>
+				<td>${count26_10}人</td>
+			</tr>
+			<tr>
+				<th>1/25</th>
+				<td>${count25}人</td>
+				<td>${count25_100}人</td>
+				<td>${count25_90}人</td>
+				<td>${count25_80}人</td>
+				<td>${count25_70}人</td>
+				<td>${count25_60}人</td>
+				<td>${count25_50}人</td>
+				<td>${count25_40}人</td>
+				<td>${count25_30}人</td>
+				<td>${count25_20}人</td>
+				<td>${count25_10}人</td>
+			</tr>
 			<tr>
 				<th>1/24</th>
 				<td>${count24}人</td>
